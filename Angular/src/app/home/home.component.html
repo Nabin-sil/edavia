@@ -1,0 +1,56 @@
+﻿<!-- 
+
+<div class="container">
+    <div class="row class text-center">
+        <app-one></app-one>
+    </div>
+</div>
+
+
+
+<div class="row mt-4">
+    <div class="col-md-4 shadow-sm bg-rounded">
+        <app-two></app-two>
+    </div>
+    <div class="col-md-4 shadow-sm bg-rounded" >
+        <app-three></app-three>
+    </div>
+    <div class="col-md-4 shadow-sm bg-rounded">
+        <app-four></app-four>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="md-form form-sm password-div">
+
+    <input type="{{showPassword ? 'text' : 'password' }}" class="form-control form-control-sm">
+    <label>Password</label>
+   
+    <a (click)="togglePassword()" class="eye-b">
+     <i class="{{showPassword ? 'fas fa-eye-slash' : 'fas fa-eye' }}"></i>
+    </a>
+   
+   </div> -->
+
+   <div class="container bg-light pt-5">
+       <h1 class="fw-bold">Welcome to Quiz App</h1>
+       <p class="col-md-8">This quiz contains total 9 questions. Each question will carry 10 points.</p>
+     <h4>Rules</h4>
+     <ol>
+         <li>Correct question gives you 10 points </li>
+         <li>Incorrect question gives you -10 points </li>
+         <li>You will have 60sec to answer each question </li>
+         <li>Refreshing the quiz will reset the quiz </li>
+     </ol>
+
+     <h1 style="font-family: cursive; text-align: center;">All the best!!!</h1>
+     <!-- <div class="name col-md-4 my-3">
+         <label  for="">Enter your name</label>
+         <input  type="text" class="form-control"/>
+     </div> -->
+     <button class="m-3 btn btn-primary btn-lg" routerLink="/question">Start the quiz!!!</button>
+    </div>
